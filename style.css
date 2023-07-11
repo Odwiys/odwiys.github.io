@@ -20,6 +20,8 @@ h2 {
 p {
   color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
+  padding: 2vmin;
+  line-height: 30px;
 }
 
 a {
@@ -49,6 +51,12 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  object-fit: contain;
+  height: 20vh;
+  width: 20vh;
+  object-fit: cover;
+  object-position: 20%;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 .card-white {
